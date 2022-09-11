@@ -1,0 +1,34 @@
+.item{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.status{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.statusOn{
+    background-color: rgb(37, 161, 12);
+}
+.statusOff {
+    background-color: rgb(168, 22, 22);
+}
+/* .avatar{max-width: 450px;} */
+.name{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
